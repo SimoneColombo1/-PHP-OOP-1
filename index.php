@@ -22,9 +22,14 @@ class movie
 
 $onepiece = new movie('one piece', 120);
 $vanhelsing = new movie('van helsing', 130);
-
-
-
+$ilpadrino = new movie('Il Padrino', 175);
+$Forrestgump = new movie('Forrest Gump', 142);
+$inception = new movie('inception', 148);
+$batman = new movie('Il Cavaliere Oscuro', 152);
+$lalaland = new movie('la la land', 128);
+$pulpfiction = new movie('Pulp Fiction', 128);
+$parasite = new movie('parasite', 132);
+$perfectblue =  new movie('PErfect Blue', 81);
 ?>
 
 
@@ -74,6 +79,142 @@ $vanhelsing = new movie('van helsing', 130);
                 <?php
                 echo movie::length();
                 echo $vanhelsing->durata;
+                ?>
+            </p>
+        </span>
+        <span>
+
+            <p>
+
+                <?php echo movie::title();
+                echo $ilpadrino->titolo;
+
+                ?>
+
+            </p>
+            <p>
+                <?php
+                echo movie::length();
+                echo $ilpadrino->durata;
+                ?>
+            </p>
+        </span>
+        <span>
+
+            <p>
+
+                <?php echo movie::title();
+                echo $Forrestgump->titolo;
+
+                ?>
+
+            </p>
+            <p>
+                <?php
+                echo movie::length();
+                echo $Forrestgump->durata;
+                ?>
+            </p>
+        </span>
+        <span>
+
+            <p>
+
+                <?php echo movie::title();
+                echo $inception->titolo;
+
+                ?>
+
+            </p>
+            <p>
+                <?php
+                echo movie::length();
+                echo $inception->durata;
+                ?>
+            </p>
+        </span>
+        <span>
+
+            <p>
+
+                <?php echo movie::title();
+                echo $batman->titolo;
+
+                ?>
+
+            </p>
+            <p>
+                <?php
+                echo movie::length();
+                echo $batman->durata;
+                ?>
+            </p>
+        </span>
+        <span>
+
+            <p>
+
+                <?php echo movie::title();
+                echo $lalaland->titolo;
+
+                ?>
+
+            </p>
+            <p>
+                <?php
+                echo movie::length();
+                echo $lalaland->durata;
+                ?>
+            </p>
+        </span>
+        <span>
+
+            <p>
+
+                <?php echo movie::title();
+                echo $pulpfiction->titolo;
+
+                ?>
+
+            </p>
+            <p>
+                <?php
+                echo movie::length();
+                echo $pulpfiction->durata;
+                ?>
+            </p>
+        </span>
+        <span>
+
+            <p>
+
+                <?php echo movie::title();
+                echo $parasite->titolo;
+
+                ?>
+
+            </p>
+            <p>
+                <?php
+                echo movie::length();
+                echo $parasite->durata;
+                ?>
+            </p>
+        </span>
+        <span>
+
+            <p>
+
+                <?php echo movie::title();
+                echo $perfectblue->titolo;
+
+                ?>
+
+            </p>
+            <p>
+                <?php
+                echo movie::length();
+                echo $perfectblue->durata;
                 ?>
             </p>
         </span>
